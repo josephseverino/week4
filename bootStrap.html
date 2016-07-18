@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <style>
+            /*nav form {*/
+            /*    width: 100%;*/
+            /*    height: 80px;*/
+            /*    vertical-align:center;*/
+                
+                
+            /*}*/
+            /*form{*/
+            /*    margin:auto;*/
+            /*    padding-top:30px;*/
+            /*    float:right;*/
+            /*    margin-right:100px;*/
+            /*}*/
+            
+            
+            
+            nav input {
+                
+                margin-top:7px;
+                padding:-5px;
+         
+            }
+            #button {
+                background-color:#36AB34;
+                border-color:#36AB34;
+                color:white;
+            }
+            #title{
+                color:white;
+                margin-top:13px;
+            }
+           
+                
+            
+            #indent,h1{
+                padding-top:50px;
+                
+            }
+            
+            #pformat{
+                line-height:30px;
+                font-size:20px;
+            }
+            .formatInput{
+                padding-left:0px;
+                padding-right:4px;
+            }
+            
+        </style>
+    </head>
+    
+    
+    <body>
+        <div class="row">
+            <nav >
+                <form class="col-sm-12   navbar navbar-inverse" role="search">
+                  <div class="form-group">
+                    <div class="col-sm-1"></div>
+                    <h4 id="title"class="col-sm-5">Project Name</h4>
+                    <div class="col-sm-2 formatInput">
+                        <input type="text" class=" form-control" placeholder="Email">
+                    </div>  
+                    <div class="col-sm-2 formatInput">
+                        <input type="text" class="form-control" placeholder="Password">
+                    </div>
+                    <button id="button" type="button" class=" col-sm-1 btn btn-default navbar-btn">Sign in</button>
+                  </div>
+                </form>
+            </nav>
+            <div id="indent" class="jumbotron row">
+              <div class="col-sm-1"></div>
+              <h1 class="col-sm-11">Hello, world!</h1>
+              <div class="col-sm-1"></div>
+              <p  class="col-sm-11"id="pformat">
+                  This is a template for a simple marketing or informational website. It includes a large 
+                  allout called a jumbotron and three supporting pieces of content. Use it as a starting point to 
+                  create something more unique.
+                  
+              </p>
+              <div class="col-sm-1"></div>
+              <p class="col-sm-11"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span style="font-size:10px;margin-bottom:10px;">>></span></a></p>
+            </div>
+        </div>
+    </body>
+</html>
